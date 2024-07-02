@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(255, 255, 250);
+  
+  }
+  /* signup styling */
+  .signup{
+    position: absolute;
+    top: 8px;
+    right: 125px;
+      border-radius: 5px;
+      float: inline-end;
+        
+  }
+  
+  .login{
+      position: absolute;
+      top: 8px;
+      right: 50px;
+      border-radius: 5px;
+      float: inline-end;
+  }
+  
+  .home{
+      color: white;
+      position: relative;
+      top: 15px;
+      padding-left: 10px;
+      
+  }
+  .home:hover{
+      background-color: #555;
+  }
+  
+  .nav {
+      background-color: #333;
+      display:flex;
+    
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  
+  nav ul li {
+      float:inline-start;
+  }
+  
+  nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 46px;
+      text-decoration: none;
+      margin-left: 10PX;
+  }
+  
+  nav ul li a:hover {
+      background-color: #847070;
+  }
+  
+  .welcome{
+    background-image:url(/image/images.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+    color: white;
+    padding: 150px 10px;
+  
+  }
+  
+  .begin{
+   font-size: 20px;
+   position: absolute;
+   left: 400px;
+   
+  }
+  
+  button:hover{
+      border-radius: 10px;
+      background-color:  #847070;
+      border-style: none;
+      color: white;
+  }
+  
+  /* services syling */
+  .services{
+   font-size: 25px;
+  }
+  
+  label:hover{
+    color: dodgerblue;
+  }
+  
+  /* My footer styling Begins here */
+  
+  
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    footer a {
+      color: #f1f1f1;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    footer nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    footer nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+  .facebook{
+    color: blue;
+  }
+  
+  
+  
+  
